@@ -1,6 +1,10 @@
 angular.module('angularTest1App')
-.controller('angularTest1Ctrl', ['$scope', function($scope){
-    $scope.greeting = 'HI greeting';
+.controller('angularTest1Controller', ['$scope', function($scope){
+    $scope.greeting = 'Hello greeting';
+
+    $scope.double = function(value) {
+        return value*2;
+    };
 
 
 }]);

@@ -1,6 +1,6 @@
 angular.module('angularTest1App', [])
-.config(['$routeProvider', function($routeProvider){
-    
+.config([function(){
+
 
 }])
 .run(['$http', function($http){

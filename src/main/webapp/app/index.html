@@ -9,7 +9,7 @@
 
 
 </head>
-<body ng-app="angularTest1App" class="container" ng-controller="angularTest1Ctrl">
+<body ng-app="angularTest1App" class="container" ng-controller="angularTest1Controller" ng-strict-di>
 <div>
     <span class="label label-default">Default</span>
     <span class="label label-primary">Primary</span>
@@ -20,6 +20,9 @@
 </div>
 <div>
     {{greeting}}
+</div>
+<div>
+    {{double(7)}}
 </div>
 
 
