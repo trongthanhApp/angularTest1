@@ -9,18 +9,27 @@
 
 
 </head>
-<body ng-app="angularTest1App" class="container">
-
-<span class="label label-default">Default</span>
-<span class="label label-primary">Primary</span>
-<span class="label label-success">Success</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">Warning</span>
-<span class="label label-danger">Danger</span>
+<body ng-app="angularTest1App" class="container" ng-controller="angularTest1Ctrl">
+<div>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+</div>
+<div>
+    {{greeting}}
+</div>
 
 
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="script/app.js"></script>
+
+<script src="script/controller/angularTest1.ctrl.js"></script>
+
 </body>
 </html>

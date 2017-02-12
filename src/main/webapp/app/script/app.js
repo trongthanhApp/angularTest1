@@ -1,4 +1,8 @@
-angular.module('angularTest1App', ['ngRoute'])
-.config(function($routeProvider){
+angular.module('angularTest1App', [])
+.config(['$routeProvider', function($routeProvider){
+    
 
-});
+}])
+.run(['$http', function($http){
+
+}]);
